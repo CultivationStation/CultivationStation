@@ -36,6 +36,37 @@
       font-weight: bold;
       font-size: 1.1em;
     }
+
+    /* CLOUD CATEGORIES */
+    .category-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px 20px;
+      background-color: #fff0f5;
+    }
+
+    .cloud {
+      background: #fce4ec;
+      border-radius: 50% / 60%;
+      box-shadow: 0 8px 15px rgba(209, 107, 165, 0.3);
+      padding: 30px 40px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #b44574;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      user-select: none;
+      min-width: 150px;
+    }
+
+    .cloud:hover {
+      transform: scale(1.1) translateY(-5px);
+      box-shadow: 0 12px 25px rgba(209, 107, 165, 0.5);
+    }
+
     .station {
       padding: 40px;
       text-align: center;
@@ -79,6 +110,15 @@
     <a href="#planner">Routine Planner</a>
   </nav>
 
+  <!-- 🌸 CLOUD CATEGORIES SECTION -->
+  <div class="category-container">
+    <div class="cloud">Skincare</div>
+    <div class="cloud">Self Growth</div>
+    <div class="cloud">Faith & Lifestyle</div>
+    <div class="cloud">Glow Up Tips</div>
+    <div class="cloud">Wellness</div>
+  </div>
+
   <section class="station" id="faith">
     <h2>Feminine Faith</h2>
     <p>Daily devotionals, God-centered routines, and prayers for the modern Proverbs 31 woman.</p>
@@ -109,4 +149,5 @@
   </footer>
 </body>
 </html>
+
 
