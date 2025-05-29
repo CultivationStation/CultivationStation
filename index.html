@@ -1,26 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cultivation Station</title>
   <style>
     body {
       font-family: 'Georgia', serif;
-      background: #fffafc;
-      color: #444;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      color: #4b2e2e;
+    }
+    header {
+      background-color: #ffeff7;
+      padding: 20px;
       text-align: center;
-      padding: 50px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    h1 {
-      color: #ff69b4;
-      font-size: 48px;
+    header h1 {
+      font-size: 3em;
+      color: #d16ba5;
+      margin: 0;
     }
-    p {
-      font-size: 20px;
+    nav {
+      background-color: #ffe4ec;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #d16ba5;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .station {
+      padding: 40px;
+      text-align: center;
+    }
+    .station h2 {
+      color: #c94f7c;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .station p {
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #ffeff7;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #a86184;
+    }
+    .bows {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .bows img {
+      width: 60px;
+      margin: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>🌸 Welcome to Cultivation Station 🌸</h1>
-  <p>Your space to bloom into your best self — faith, beauty, glow-up tips & all the soft life vibes.</p>
+  <header>
+    <h1>Cultivation Station</h1>
+  </header>
+
+  <nav>
+    <a href="#faith">Feminine Faith</a>
+    <a href="#glowup">Glow Up Garden</a>
+    <a href="#softlife">Soft Life Station</a>
+    <a href="#planner">Routine Planner</a>
+  </nav>
+
+  <section class="station" id="faith">
+    <h2>Feminine Faith</h2>
+    <p>Daily devotionals, God-centered routines, and prayers for the modern Proverbs 31 woman.</p>
+  </section>
+
+  <section class="station" id="glowup">
+    <h2>Glow Up Garden</h2>
+    <p>Skincare, beauty hacks, self-image transformation, and your path to becoming THAT girl.</p>
+  </section>
+
+  <section class="station" id="softlife">
+    <h2>Soft Life Station</h2>
+    <p>Welcome to your rest zone. Curated playlists, calming visuals, and a moment to just be. Romanticize your stillness and manifest in peace.</p>
+    <div class="bows">
+      <img src="https://i.imgur.com/COQUETTEBOW1.png" alt="Pink Bow">
+      <img src="https://i.imgur.com/COQUETTEBOW2.png" alt="Pink Bow">
+      <img src="https://i.imgur.com/COQUETTEBOW3.png" alt="Pink Bow">
+    </div>
+  </section>
+
+  <section class="station" id="planner">
+    <h2>Routine Planner</h2>
+    <p>Build your dream day. Habit trackers, self-discipline tools, and weekly planners to cultivate your highest self.</p>
+  </section>
+
+  <footer>
+    <p>Made with love by Sereezo. 🌸 All content copyright Cultivation Station © 2025.</p>
+  </footer>
 </body>
 </html>
+
